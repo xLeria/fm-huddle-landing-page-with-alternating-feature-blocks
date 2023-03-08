@@ -17,7 +17,7 @@ a {
 }
 
 img {
-  height: auto;
+  max-height: 100%;
 }
 
 button {
