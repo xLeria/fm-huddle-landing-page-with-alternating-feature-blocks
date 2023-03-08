@@ -176,7 +176,6 @@ body {
 }
 @media (min-width: 992px) {
   .header .header-box {
-    margin-top: 1.2em;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -196,5 +195,10 @@ body {
   .header .header-img {
     width: 50%;
     height: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .header .header-box {
+    margin-top: 2.5em;
   }
 }/*# sourceMappingURL=main.css.map */
