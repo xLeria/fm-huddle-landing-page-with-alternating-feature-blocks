@@ -1,5 +1,26 @@
+@use 'variables' as *;
 .wrapper{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.btn{
+    color: $white;
+    background-color: $pink;
+    padding: .9em 4.5em;
+    border-radius: 50px;
+    font-weight: 700;
+    transition: background-color .3s;
+
+    &:hover{
+        background-color: $pink-hover;
+    }
+}
+
+@media (min-width: 576px){
+    .btn{
+        font-size: 1.6rem;
+        padding: 1.1em 4em;
+    }
 }
