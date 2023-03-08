@@ -144,6 +144,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   text-align: center;
 }
 .header .header-box .header-info {
@@ -156,6 +159,9 @@ body {
 .header .header-box .header-info__text {
   margin: 2em 0;
   padding: 0 1em;
+}
+.header-img {
+  width: 100%;
 }
 
 .main {
