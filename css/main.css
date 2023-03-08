@@ -177,12 +177,16 @@ body {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   text-align: center;
   border-radius: 20px;
   -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 .main .section-img {
+  width: 100%;
   margin: 1.4em 0;
 }
 
