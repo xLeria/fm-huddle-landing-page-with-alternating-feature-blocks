@@ -1,0 +1,15 @@
+@use 'variables' as *;
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+    background-color: $paleCyan;
+	font: {
+		family: $body-font;
+		size: 1.6rem;
+	}
+	color: $grayishBlue;
+}

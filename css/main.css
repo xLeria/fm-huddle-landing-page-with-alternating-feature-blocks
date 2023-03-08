@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsl(193, 100%, 96%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  color: hsl(208, 11%, 55%);
+}/*# sourceMappingURL=main.css.map */
